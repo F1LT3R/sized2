@@ -1,0 +1,77 @@
+body {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  max-width: 600px;
+}
+
+.in {
+  font-size: 150%;
+  transition: 100ms ease-in;
+}
+
+.in h1 {
+  border: 10px solid green;
+  background: green;
+  color: white;
+  transition: 100ms ease-in;
+  border-radius: 16px;
+}
+
+.out {
+  color: black;
+  font-size: 70%;
+}
+
+.out h1 {
+  border: 0px solid transparent;
+}
+
+button {
+  font-size: 18px;
+  border-radius: 4px;
+  padding: 8px 16px;
+  pointer: cursor;
+  background: #eee;
+}
+
+button:hover {
+  background: #08a;
+  color: white;
+}
+
+blockquote {
+  margin-top: 24px;
+  font-size: 80%;
+  line-height: 20px;
+}
+
+div.title {
+  background: #eee;
+  color: #888;
+  padding: 8px;
+}
+
+.logo {
+  height: 160px;
+  left: 10px;
+  top: -0px;
+  position: absolute;
+  z-index: 0;
+  opacity: 0.1;
+}
+
+header {
+  background: #ca0;
+  color: white;
+  padding: 4px 0 16px 0;
+}
+
+section {
+  padding: 16px;
+}
